@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="app">
+    <section class="sidebar">
+      <div class="menu-container">
+        <div class="logo-container">
+          <span class="logo">
+            <svg id="logo-39" width="50" height="40" viewBox="0 0 50 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M25.0001 0L50 15.0098V24.9863L25.0001 40L0 24.9863V15.0099L25.0001 0Z" fill="" class="ccompli2">
+              </path>
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0 15.0098L25 0L50 15.0098V24.9863L25 40L0 24.9863V15.0098ZM25 33.631L44.6967 21.8022V18.1951L44.6957 18.1945L25 30.0197L5.30426 18.1945L5.3033 18.1951V21.8022L25 33.631ZM25 24.5046L40.1018 15.4376L36.4229 13.2298L25 20.0881L13.5771 13.2298L9.89822 15.4376L25 24.5046ZM25 14.573L31.829 10.4729L25 6.37467L18.171 10.4729L25 14.573Z"
+                fill="#FFFFFF" class="ccustom"></path>
+              <path d="M25.0001 0L0 15.0099V24.9863L25 40L25.0001 0Z" fill="" class="ccompli2" fill-opacity="0.3"></path>
+            </svg>
+          </span>
+          <span class="company-name">Dashboard</span>
+        </div>
+        <ul class="menu">
+          <li class="menu-item"><a href="#"><span class="icon"><img src="imgs/menu/home.svg" alt=""></span><span class="menu-text">Home</span></a></li>
+          <li class="menu-item"><a href="#"><span class="icon"><img src="imgs/menu/profile.svg" alt=""></span><span class="menu-text">Profile</span></a></li>
+          <li class="menu-item"><a href="#"><span class="icon"><img src="imgs/menu/message.svg" alt=""></span><span class="menu-text">Messages</span></a></li>
+          <li class="menu-item"><a href="#"><span class="icon"><img src="imgs/menu/history.svg" alt=""></span><span class="menu-text">History</span></a></li>
+          <li class="menu-item"><a href="#"><span class="icon"><img src="imgs/menu/tasks.svg" alt=""></span><span class="menu-text">Tasks</span></a></li>
+          <li class="menu-item"><a href="#"><span class="icon"><img src="imgs/menu/communities.svg" alt=""></span><span class="menu-text">Community</span></a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu-item"><a href="#"><span class="icon"><img src="imgs/menu/settings.svg" alt=""></span><span class="menu-text">Settings</span></a></li>
+          <li class="menu-item"><a href="#"><span class="icon"><img src="imgs/menu/support.svg" alt=""></span><span class="menu-text">Support</span></a></li>
+          <li class="menu-item"><a href="#"><span class="icon"><img src="imgs/menu/privacy.svg" alt=""></span><span class="menu-text">Privacy</span></a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="container">
+      <header>
+        <div class="header-container">
+          <div class="top-bar">
+            <div class="search">
+              <label for="search">
+                <img src="imgs/search.svg" alt="search on the website">
+              </label>
+              <input type="text" name="search" placeholder="Search...">
+            </div>
+            <div class="account">
+              <a href="#" class="notifications">
+                <img src="imgs/bell.svg" alt="notifications">
+              </a>
+              <a href="#" class="image">
+                <img src="https://picsum.photos/100/100" alt="User image">
+              </a>
+              <a href="#" class="name">
+                Morgan Oakley
+              </a>
+            </div>
+          </div>
+          <div class="bottom-bar">
+            <div class="user">
+              <div class="image">
+                <img src="https://picsum.photos/100/100" alt="Morgan's image">
+              </div>
+              <div class="citations">
+                <p>Hi there,</p>
+                <h1>Morgan Oakley (@morgan)</h1>
+              </div>
+            </div>
+            <div class="controls">
+              <button>New</button>
+              <button>Upload</button>
+              <button>Share</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="main-content">
+        <div class="content">
+          <h2>Your projects</h2>
+          <div class="cards-container">
+            <article class="card">
+              <p class="card-title">Super Cool Project</p>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in massa varius, cursus turpis id, aliquam nunc. Vestibulum molestie turpis justo, ut scelerisque ipsum imperdiet et.
+              </p>
+              <div class="card-controls">
+                <span class="fav"><img src="imgs/fav.svg" alt="Ajouter dans les favories"></span>
+                <span class="view"><img src="imgs/eye-plus.svg" alt="Voir le projet"></span>
+                <span class="share"><img src="imgs/share.svg" alt="Partager"></span>
+              </div>
+            </article>
+            <article class="card">
+              <p class="card-title">Super Cool Project</p>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in massa varius, cursus turpis id, aliquam nunc. Vestibulum molestie turpis justo, ut scelerisque ipsum imperdiet et.
+              </p>
+              <div class="card-controls">
+                <span class="fav"><img src="imgs/fav.svg" alt="Ajouter dans les favories"></span>
+                <span class="view"><img src="imgs/eye-plus.svg" alt="Voir le projet"></span>
+                <span class="share"><img src="imgs/share.svg" alt="Partager"></span>
+              </div>
+            </article>
+            <article class="card">
+              <p class="card-title">Super Cool Project</p>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in massa varius, cursus turpis id, aliquam nunc. Vestibulum molestie turpis justo, ut scelerisque ipsum imperdiet et.
+              </p>
+              <div class="card-controls">
+                <span class="fav"><img src="imgs/fav.svg" alt="Ajouter dans les favories"></span>
+                <span class="view"><img src="imgs/eye-plus.svg" alt="Voir le projet"></span>
+                <span class="share"><img src="imgs/share.svg" alt="Partager"></span>
+              </div>
+            </article>
+            <article class="card">
+              <p class="card-title">Super Cool Project</p>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in massa varius, cursus turpis id, aliquam nunc. Vestibulum molestie turpis justo, ut scelerisque ipsum imperdiet et.
+              </p>
+              <div class="card-controls">
+                <span class="fav"><img src="imgs/fav.svg" alt="Ajouter dans les favories"></span>
+                <span class="view"><img src="imgs/eye-plus.svg" alt="Voir le projet"></span>
+                <span class="share"><img src="imgs/share.svg" alt="Partager"></span>
+              </div>
+            </article>
+            <article class="card">
+              <p class="card-title">Super Cool Project</p>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in massa varius, cursus turpis id, aliquam nunc. Vestibulum molestie turpis justo, ut scelerisque ipsum imperdiet et.
+              </p>
+              <div class="card-controls">
+                <span class="fav"><img src="imgs/fav.svg" alt="Ajouter dans les favories"></span>
+                <span class="view"><img src="imgs/eye-plus.svg" alt="Voir le projet"></span>
+                <span class="share"><img src="imgs/share.svg" alt="Partager"></span>
+              </div>
+            </article>
+            <article class="card">
+              <p class="card-title">Super Cool Project</p>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in massa varius, cursus turpis id, aliquam nunc. Vestibulum molestie turpis justo, ut scelerisque ipsum imperdiet et.
+              </p>
+              <div class="card-controls">
+                <span class="fav"><img src="imgs/fav.svg" alt="Ajouter dans les favories"></span>
+                <span class="view"><img src="imgs/eye-plus.svg" alt="Voir le projet"></span>
+                <span class="share"><img src="imgs/share.svg" alt="Partager"></span>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="content-sidebar">
+          <section class="sidebar-item">
+            <h2>Announcement</h2>
+            <article class="card announcement">
+              <ul class="card-info">
+                <li class="info">
+                  <p class="title">Site Maintenance</p>
+                  <p class="detail">Suspendisse scelerisque nisl id accumsan blandit. Mauris eget est quis est imperdiet viverra a eget nunc. </p>
+                </li>
+                <li class="info">
+                  <p class="title">Community Share Day</p>
+                  <p class="detail">Suspendisse scelerisque nisl id accumsan blandit. Mauris eget est quis est imperdiet viverra a eget nunc. </p>
+                </li>
+                <li class="info">
+                  <p class="title">Updated Privacy Policy</p>
+                  <p class="detail">Suspendisse scelerisque nisl id accumsan blandit. Mauris eget est quis est imperdiet viverra a eget nunc. </p>
+                </li>
+              </ul>
+            </article>
+          </section>
+          <section class="sidebar-item">
+            <h2>Trending</h2>
+            <article class="card trending">
+              <ul class="trending-users">
+                <li class="user">
+                  <img src="https://picsum.photos/50/50?random=1" alt="">
+                  <span class="name">@tegan</span>
+                  <span class="description">Life changing app</span>
+                </li>
+                <li class="user">
+                  <img src="https://picsum.photos/50/50?random=2" alt="">
+                  <span class="name">@morgan</span>
+                  <span class="description">World peace builder</span>
+                </li>
+                <li class="user">
+                  <img src="https://picsum.photos/50/50?random=3" alt="">
+                  <span class="name">@trendall</span>
+                  <span class="description">Super cool project</span>
+                </li>
+                <li class="user">
+                  <img src="https://picsum.photos/50/50?random=4" alt="">
+                  <span class="name">@alex</span>
+                  <span class="description">No traffic maker</span>
+                </li>
+              </ul>
+            </article>
+          </section>
+        </div>
+      </section>
+    </section>
+  </div>
+</body>
+
+</html>
